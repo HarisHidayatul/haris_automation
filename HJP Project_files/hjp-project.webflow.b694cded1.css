@@ -283,7 +283,7 @@ img {
 }
 
 html.w-mod-touch * {
-    background-attachment: scroll !important;
+    /* background-attachment: scroll !important; */
 }
 
 .w-block {
@@ -1523,7 +1523,7 @@ textarea.w-select {
 .w-lightbox-backdrop,
 .w-lightbox-container {
     height: 100%;
-    -webkit-overflow-scrolling: touch;
+    /* -webkit-overflow-scrolling: touch; */
     overflow: auto;
 }
 
@@ -3490,6 +3490,10 @@ a {
     }
     .project-content-2-copy {
         padding: 16px;
+    }
+    .style-2 {
+        padding-top: 35px;
+        line-height: 35px;
     }
 }
 
