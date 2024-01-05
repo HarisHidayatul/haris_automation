@@ -2272,9 +2272,18 @@ h4 {
 
 h5 {
     background-image: linear-gradient(to right, var(--p1), var(--p2) 62%);
+    /* color: black; */
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 22.1px;
+    font-weight: 700;
+    line-height: 27.8px;
+}
+
+.text-project {
     margin-top: 8px;
     margin-bottom: 0;
     font-size: 22.1px;
@@ -2562,17 +2571,69 @@ a {
 
 .project-card {
     width: 456px;
-    height: 550px;
+    height: 400px;
     /* background-image: url("https://assets-global.website-files.com/6570119f0e4b7c77e06cba8a/65712417a3d1804424453581_rumah%201-min.jpg"); */
-    background-image: url("../img/WhatsApp\ Image\ 2024-01-03\ at\ 12.38.51_89d94b37.jpg");
-    background-position: 30% 30%;
-    background-repeat: no-repeat;
-    background-size: auto;
+    /* background-repeat: no-repeat; */
+    /* background-size: auto; */
     border-radius: 16px;
     padding: 0;
     transition: all .2s;
     position: relative;
     box-shadow: 0 4px 8px -2px rgba(16, 24, 40, .4);
+    background-size: 490px 400px;
+}
+
+.porto1 {
+    background-image: url("../img/490x400/490x400px-HA15.jpg");
+}
+
+.porto2 {
+    background-image: url("../img/490x400/490x400px-HA13.jpg");
+}
+
+.porto3 {
+    background-image: url("../img/490x400/490x400px-HA11.jpg");
+    background-size: 490px 400px;
+}
+
+.porto4 {
+    background-image: url("../img/490x400/490x400px-HA10.jpg");
+}
+
+.porto5 {
+    background-image: url("../img/490x400/490x400px-HA1.jpg");
+}
+
+.porto6 {
+    background-image: url("../img/490x400/490x400px-HA9.jpg");
+}
+
+.porto7 {
+    background-image: url("../img/490x400/490x400px-HA6.jpg");
+}
+
+.porto8 {
+    background-image: url("../img/490x400/490x400px-HA2.jpg");
+}
+
+.porto9 {
+    background-image: url("../img/490x400/490x400px-HA5.jpg");
+}
+
+.porto10 {
+    background-image: url("../img/490x400/490x400px-HA4.jpg");
+}
+
+.porto11 {
+    background-image: url("../img/490x400/490x400px-HA3.jpg");
+}
+
+.porto12 {
+    background-image: url("../img/490x400/490x400px-HA7.jpg");
+}
+
+.porto13 {
+    background-image: url("../img/490x400/490x400px-HA18.jpg");
 }
 
 .project-card:hover {
@@ -3269,6 +3330,9 @@ a {
         font-size: 40px;
     }
     h5 {
+        font-size: 20px;
+    }
+    .text-project {
         font-size: 20px;
     }
     p {
