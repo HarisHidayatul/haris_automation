@@ -3603,4 +3603,8 @@ a {
         left: 16px;
         right: 16px;
     }
+    .style-2 {
+        padding-top: 35px;
+        line-height: 35px;
+    }
 }
