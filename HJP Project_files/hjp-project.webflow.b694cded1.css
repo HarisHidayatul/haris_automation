@@ -1518,7 +1518,6 @@ textarea.w-select {
     bottom: 0;
     left: 0;
     right: 0;
-    -webkit-transform: translate(0);
 }
 
 .w-lightbox-backdrop,
@@ -1657,7 +1656,6 @@ textarea.w-select {
     cursor: pointer;
     padding: 2vh 1vh;
     display: inline-block;
-    -webkit-transform: translate3d(0, 0, 0);
 }
 
 .w-lightbox-active {
@@ -1680,13 +1678,11 @@ textarea.w-select {
 .w-lightbox-thumbnail .w-lightbox-tall {
     width: 100%;
     top: 50%;
-    transform: translate(0, -50%);
 }
 
 .w-lightbox-thumbnail .w-lightbox-wide {
     height: 100%;
     left: 50%;
-    transform: translate(-50%);
 }
 
 .w-lightbox-spinner {
@@ -2637,7 +2633,6 @@ a {
 }
 
 .project-card:hover {
-    transform: translate(0, -2px);
     box-shadow: 0 4px 8px -2px rgba(16, 24, 40, .6);
 }
 
@@ -2687,7 +2682,6 @@ a {
 }
 
 .project-card-2:hover {
-    transform: translate(0, -2px);
     box-shadow: 0 4px 8px -2px rgba(16, 24, 40, .6);
 }
 
@@ -2706,7 +2700,6 @@ a {
 }
 
 .project-card-3:hover {
-    transform: translate(0, -2px);
     box-shadow: 0 4px 8px -2px rgba(0, 0, 0, .6);
 }
 
@@ -2977,7 +2970,6 @@ a {
 }
 
 .tab-link-tab-2:hover {
-    transform: translate(0, -2px);
     box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
 }
 
@@ -2986,7 +2978,6 @@ a {
     -webkit-text-fill-color: inherit;
     background-clip: border-box;
     transition-property: none;
-    transform: translate(0, -2px);
     box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
 }
 
@@ -3006,7 +2997,6 @@ a {
 }
 
 .tab-link-tab-3:hover {
-    transform: translate(0, -2px);
     box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
 }
 
@@ -3015,7 +3005,6 @@ a {
     -webkit-text-fill-color: inherit;
     background-clip: border-box;
     transition: all .2s;
-    transform: translate(0, -2px);
     box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
 }
 
@@ -3034,7 +3023,6 @@ a {
 }
 
 .tab-link-tab-1:hover {
-    transform: translate(0, -2px);
     box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
 }
 
@@ -3044,7 +3032,6 @@ a {
     -webkit-text-fill-color: inherit;
     background-clip: border-box;
     transition: opacity .2s;
-    transform: translate(0, -2px);
     box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
 }
 
@@ -3136,7 +3123,6 @@ a {
 }
 
 .project-card-copy:hover {
-    transform: scale(1.01)translate(0, -2px);
     box-shadow: 0 6px 8px -2px rgba(16, 24, 40, .6);
 }
 
